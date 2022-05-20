@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-20T17:07:58-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hemershon Silva</title><subtitle>Compartilhando conhecimento</subtitle><author><name>Hemershon Silva</name><email>hemershon@gmail.com</email></author><entry><title type="html">Problemas encontrado para estudar programação</title><link href="http://localhost:4000/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/dicas/problemas-encontrados-para-estudar-programacao/" rel="alternate" type="text/html" title="Problemas encontrado para estudar programação" /><published>2022-05-20T00:00:00-03:00</published><updated>2022-05-20T00:00:00-03:00</updated><id>http://localhost:4000/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/dicas/problemas-encontrados-para-estudar-programacao</id><content type="html" xml:base="http://localhost:4000/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/dicas/problemas-encontrados-para-estudar-programacao/"><![CDATA[<h2 id="quais-são-os-problemas-mais-frequentes-quando-resolvemos-estudar-programação">Quais são os problemas mais frequentes quando resolvemos estudar programação?</h2>
+
+<p>Vou relatar alguns problemas que passei durante minha vida de estudante da programação, esse post faz parte de como eu estudei errado.</p>
+
+<p>Quando comecei não tinha toda essa estrutura que temos hoje de google, stack overflow, e outros.</p>
+
+<h2 id="a-primeira-dúvida-era-o-que-estudar-como-começa">A primeira dúvida era o que estudar, como começa?</h2>
+
+<h3 id="tutorial-de-html-e-css">Tutorial de html e css</h3>
+
+<p>Procurei na internet alguns tutoriais que ensinava a criar sites, daí fui logo pro fogo sem saber de nada sem entender o que é html e sem entender qual era o impacto do css dentro de um site, então veio as primeiras caneladas como não sabia o que estava fazendo eu ia fazendo de qualquer jeito esperando resultados iguais do tutoriais.</p>
+
+<p>Dicas:</p>
+
+<ol>
+  <li>
+    <p>antes de ir para o fogo, estude o básico, não saia dele antes de entender como o ecossistema funciona, não importa se é uma linguagem simples.</p>
+  </li>
+  <li>
+    <p>Procure alguém para pegar referência, alguém mais experiente vai te dar dicas importantes.</p>
+  </li>
+  <li>
+    <p>Crie uma rotina de estudos com foco e disciplina.</p>
+  </li>
+</ol>
+
+<h3 id="estudar-o-que-está-no-hype">Estudar o que está no Hype?</h3>
+
+<p>Fiquei meio perdido quando comecei, por não ter uma direção, eu estudava tudo que aparecia, então não aprendia nada.</p>
+
+<p>Dicas:</p>
+
+<ol>
+  <li>
+    <p>Separe um material, curso ou livro ou post de blog, estude, entenda e depois vá para o próximo.</p>
+  </li>
+  <li>
+    <p>Tenha disciplina ao estudar esse material, separe um horário para aquela rotina de estudos, no começo é difícil mas com foco e disciplina você consegue.</p>
+  </li>
+</ol>
+
+<h3 id="organização">Organização?</h3>
+
+<p>Como relatado acima, estava perdido e não tinha um pingo de organização,</p>
+
+<p>Não sabia o que estudava e nem sabia organizar meus estudos e meus materiais então quando pulava para outro tutorial ou livro ou curso, quase sempre me via estudando o mesmo conteúdo.</p>
+
+<p>Dicas:</p>
+
+<ol>
+  <li>Quando você separar o material, faça um cronograma do que você vai estudar, se for por meio de vídeos, primeiro assista e anote pontos importantes depois execute, não entendeu o processo, reveja o vídeo novamente, na sua cabeça rever o vídeo vai deixar você pra trás, acredite isso vai ajudar você lá na frente.</li>
+</ol>
+
+<ul>
+  <li>Dúvidas?</li>
+</ul>
+
+<p>É natural quando você está estudando ter dúvidas relacionadas ao conteúdo, quando estava com dúvidas simplesmente não tinha com quem tirar, então pulava para a próxima parte do conteúdo, pois achava que tinha uma explicação no próximo capítulo ou vídeo.</p>
+
+<p>Dicas:</p>
+
+<ol>
+  <li>Procure um mentor, alguém que possa tirar suas dúvidas e orientar seu processo de aprendizagem.</li>
+</ol>
+
+<h3 id="faça-perguntas-inteligentes">Faça perguntas inteligentes.</h3>
+
+<p>Confesso que hoje está mais fácil tirar dúvidas, stack overflow, google, comunidades e outros.</p>
+
+<p>Peguei algumas patadas no começo de algumas pessoas, por simplesmente não saber perguntar para ela, ou o problema era simples e não tinha lido direito, e não tinha sequer pesquisado algo antes para ver se conseguia resolver.</p>
+
+<p>Dicas:</p>
+
+<ol>
+  <li>
+    <p>Se você sentir que precisar de uma abordagem “one to one”, faça o seguinte;</p>
+  </li>
+  <li>
+    <p>Pesquise antes no google, o problema que você está passando hoje já foi problema de alguém no passado.</p>
+  </li>
+  <li>
+    <p>Não conseguiu entender ou não conseguiu achar, elabore sua pergunta e deixe ela o mais claro possível e deixe visível para a pessoa a parte que você não entendeu.</p>
+  </li>
+  <li>
+    <p>Na abordagem, lembra que a pessoa que você irá pedir ajuda tem compromisso, então não faça ela perder tempo.</p>
+  </li>
+  <li>
+    <p>Seja direto e claro.</p>
+  </li>
+</ol>
+
+<p>Esse post foi para dar dicas para melhorar seu desempenho nos estudos da programação.</p>
+
+<p>Espero ter ajudado com esse conteúdo.</p>]]></content><author><name>Hemershon Silva</name><email>hemershon@gmail.com</email></author><category term="Programação" /><category term="SoftSkill" /><category term="HardSkill" /><category term="DesenvolvendoMe" /><category term="Dicas" /><summary type="html"><![CDATA[Quais são os problemas mais frequentes quando resolvemos estudar programação?]]></summary></entry><entry><title type="html">Descobrindo o caminho das pedras</title><link href="http://localhost:4000/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/descobrindo-o-caminho-das-pedas/" rel="alternate" type="text/html" title="Descobrindo o caminho das pedras" /><published>2021-07-11T00:00:00-03:00</published><updated>2021-07-11T00:00:00-03:00</updated><id>http://localhost:4000/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/descobrindo-o-caminho-das-pedas</id><content type="html" xml:base="http://localhost:4000/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/descobrindo-o-caminho-das-pedas/"><![CDATA[<h1 id="descobrindo-o-caminho-das-pedras">Descobrindo o caminho das pedras</h1>
+
+<p>Continuando com a história de como sempre estudei errado, essa parte vou falar como melhorei meus estudos e desempenho na programação, como falei no post anterior comecei a melhorar depois da mentoria do <a href="https://www.youtube.com/channel/UCp98bXHSc01w8fBfkkgHB1Q">DesenvolvendoMe</a>.</p>
+
+<p>Lá aprendi a usar novas técnicas de desenvolvimento de software, e o que é preciso para melhorar como programador.</p>
+
+<h2 id="estudando-de-maneira-correta">Estudando de maneira correta.</h2>
+
+<p>Vamos dizer que você está empolgado com a área de TI, são várias linguagem, vários framework, vários influenciadores, aí você começa a estudar uma tecnologia que está no hype do mercado e algumas pessoas estão comentando sobre ela, você passa uma semana ou mais estudando ela sem entender direito o que está fazendo, aí você vê o lançamento de um framework, você pensar deve ser mais fácil aprender esse framework, e você vai e muda e começa a estudar só que sem entender nada.</p>
+
+<p><em>Chega uma hora que você se pergunta porque não estou entendendo e não consigo aprender.</em></p>
+
+<p>Sabe porque sua lógica pode está com falhas, mais você leu em algum lugar que não precisa de lógica de programação para aprender a programar, eu sempre penso assim, pra você fritar um ovo você precisa entender o processo e seguir passo a passo, até deixar o ovo pronto, na programação não é diferente, você vai precisar entender o processo, regras de negócios e entender sobre o próprio negócio, a lógica vai facilitar pra você esse processo.</p>
+
+<h2 id="o-que-você-precisar-para-fixar-o-estudos">O que você precisar para fixar o estudos</h2>
+
+<p>Além de estudar o básico da linguagem, aconselho a você ir nesses sites de teste lógicos para que você comece a exercitar formas de resolver um problema, como <a href="https://www.urionlinejudge.com.br/judge/en/login">Uri</a>, <a href="https://www.hackerrank.com/dashboard">Hackerrank</a>, esses sites ajuda bastante, eles disponibilizar exercícios básicos ao avançado para todo os níveis, vale a pena separar uma hora diária para praticar.</p>
+
+<p><em>Aconselho a separar 30 minutos diários para praticar o básico da linguagem.</em></p>
+
+<p><em>E o mais importante, leia a documentação, é ali que você vai entender tudo da linguagem.</em></p>
+
+<p><em>Planejar um projeto e executar ele também vai ajudar na evolução.</em></p>
+
+<h2 id="essa-foi-a-parte-do-hard-skill">Essa foi a parte do Hard Skill</h2>
+
+<p>Só entenda o seguinte, aprender requer determinação e foco sem isso você vai continuar rodando em círculo, use um pomodoro para ajudar no foco, determine um tempo que você achar melhor para praticar o foco, geralmente uso uma hora focado sem distrações.</p>
+
+<h2 id="agora-tem-a-parte-do-soft-skill">Agora tem a parte do soft skill.</h2>
+
+<p>Soft skill é a arte de saber perguntar, quando você está começando no mundo da programação, você tem que perguntar muito, poder parece engraçado, mas na realidade você não entender como aquilo vai funcionar não fique com vergonha mesmo sabendo que a pessoa que vai te explicar é grossa e arrogante.</p>
+
+<p>Tinha um conhecido que ele era uma pessoa muito arrogante, toda vez que eu ia perguntar uma coisa simples ele me respondia com grosseria mais respondia, mais não seja um petelho, aprender fazer perguntas inteligentes, mais como assim perguntas inteligentes, antes de perguntar para outra pessoa vá no google que lá vai ter alguma coisa explicando de uma forma que você possivelmente não entender de cara, então anote os pontos principais e o que você não entendeu e tenta resumir de uma forma objetiva para que a pessoa que vai ouvir ou ler sua pergunta entenda, porque eu falo isso, porque a pessoa vai parar o que ela está fazendo para te ajudar, então mastiga o máximo que você puder para facilitar a resposta ou até mesmo irem juntos procurar uma solução.</p>
+
+<p>Nas suas conversas aprender a ser objetivo, fazer rodeio mesmo sabendo o que está falando pode ser cansativo para quem está ouvindo, bateu a dúvida anote, geralmente eu anoto tudo no <a href="https://keep.google.com/">keep do google</a>, depois vou lá e organizo minhas dúvidas e perguntas, antes de fazer a pergunta eu dou uma revisada e tento resumir e se bem objetivo, se caso a pessoa que está ouvindo não entender eu explico de uma forma mais detalhada.</p>
+
+<p>Tenha sempre foco e determinação, pense assim seus estudos são como uma construção de um prédio, se você não fizer uma estrutura forte na sua base, ele vai sempre balançar.</p>]]></content><author><name>Hemershon Silva</name><email>hemershon@gmail.com</email></author><category term="Programação" /><category term="SoftSkill" /><category term="HardSkill" /><category term="DesenvolvendoMe" /><summary type="html"><![CDATA[Descobrindo o caminho das pedras]]></summary></entry><entry><title type="html">Estudando Programação errado</title><link href="http://localhost:4000/jekyll/como-identifiquei-que-sempre-estudei-errado/" rel="alternate" type="text/html" title="Estudando Programação errado" /><published>2021-06-05T00:00:00-03:00</published><updated>2021-06-05T00:00:00-03:00</updated><id>http://localhost:4000/jekyll/como-identifiquei-que-sempre-estudei-errado</id><content type="html" xml:base="http://localhost:4000/jekyll/como-identifiquei-que-sempre-estudei-errado/"><![CDATA[<p><em>Como identifiquei que sempre estudei errado…</em></p>
+
+<p>Mais uma história dessa saga de se tornar um programador.
+Quando comecei na programação há alguns anos atrás, fiquei muito perdido, como assim tem um caminho a seguir, lógica de programação, depois… ai que está o depois que é o obstáculo.</p>
+
+<p>Você não sabe o que estudar, o que é relevante para sua carreira, por isso que muitos iniciantes desistem ou até mesmo demoram a encontrar o caminho relevante.
+Imagina um iniciante estudando tudo pela frente ou pior, seguindo um passo a passo sem entender muito bem o que é o que faz e quais problemas você consegue resolver com a ferramenta.</p>
+
+<p>Então essa era minha rotina diária de estudos, depois de um certo tempo conversando com meu irmão ele me mostrou uma tecnologia nova gostei dela e fui estudar-lá.</p>
+
+<p>Só que tinha um problema, eu não tinha autogestão, então como ia estudar sem os controles principais foco e persistência, foi assim que fiquei por anos sem entender direito sobre o assunto, aí me tornei um programador mediano, não sabia usar a ferramenta direito e não conhecia todo o poder que a ferramenta tinha, nisso ficava bastante frustrado com minha capacidade técnica, passei por algumas empresas que pioraram minha frustração, e tinha o lado que não conseguia identificar meus erros, sempre me dedicando bastante para melhorar, depois do trabalho eu estudava bastante e nada de evoluir.</p>
+
+<p>Fui entrando e saindo das empresas com a mesma frustração de não conseguir entregar algo de valor para empresa.</p>
+
+<p>Na minha saga de melhorar como programador, fui para em uma entrevista com tech lead Marco, que isso é assunto para outro post.</p>
+
+<p>Foi aí que descobri que meus estudos estavam errados, não tinha base lógica, nem soft skill e nem hard skill, fui descobrindo isso quando comecei a acompanhar sua mentoria, nela descobri que um programador precisa ter uma caixa de ferramenta para melhorar como profissional, depois de muito tempo que fui entender o verdadeiro caminho das pedras.</p>]]></content><author><name>Hemershon Silva</name><email>hemershon@gmail.com</email></author><category term="Jekyll" /><summary type="html"><![CDATA[Como identifiquei que sempre estudei errado…]]></summary></entry></feed>
