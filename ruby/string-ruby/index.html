@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Problemas encontrado para estudar programação - Hemershon Silva</title>
-<meta name="description" content="Quais são os problemas mais frequentes quando resolvemos estudar programação?">
+<!-- begin _includes/seo.html --><title>Entenda como funciona as String no ruby - Hemershon Silva</title>
+<meta name="description" content="String no Ruby">
 
 
   <meta name="author" content="Hemershon Silva">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Hemershon Silva">
-<meta property="og:title" content="Problemas encontrado para estudar programação">
-<meta property="og:url" content="/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/dicas/problemas-encontrados-para-estudar-programacao/">
+<meta property="og:title" content="Entenda como funciona as String no ruby">
+<meta property="og:url" content="/ruby/string-ruby/">
 
 
-  <meta property="og:description" content="Quais são os problemas mais frequentes quando resolvemos estudar programação?">
+  <meta property="og:description" content="String no Ruby">
 
 
 
@@ -35,9 +35,9 @@
 
 
   <meta name="twitter:site" content="@mmistakes">
-  <meta name="twitter:title" content="Problemas encontrado para estudar programação">
-  <meta name="twitter:description" content="Quais são os problemas mais frequentes quando resolvemos estudar programação?">
-  <meta name="twitter:url" content="/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/dicas/problemas-encontrados-para-estudar-programacao/">
+  <meta name="twitter:title" content="Entenda como funciona as String no ruby">
+  <meta name="twitter:description" content="String no Ruby">
+  <meta name="twitter:url" content="/ruby/string-ruby/">
 
   
     <meta name="twitter:card" content="summary">
@@ -50,7 +50,7 @@
 
 
 
-  <meta property="article:published_time" content="2022-05-20T00:00:00-03:00">
+  <meta property="article:published_time" content="2022-07-05T00:00:00-03:00">
 
 
 
@@ -61,7 +61,7 @@
   
 
 
-<link rel="canonical" href="/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/dicas/problemas-encontrados-para-estudar-programacao/">
+<link rel="canonical" href="/ruby/string-ruby/">
 
 
 
@@ -303,15 +303,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Problemas encontrado para estudar programação">
-    <meta itemprop="description" content="Quais são os problemas mais frequentes quando resolvemos estudar programação?">
-    <meta itemprop="datePublished" content="2022-05-20T00:00:00-03:00">
+    <meta itemprop="headline" content="Entenda como funciona as String no ruby">
+    <meta itemprop="description" content="String no Ruby">
+    <meta itemprop="datePublished" content="2022-07-05T00:00:00-03:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Problemas encontrado para estudar programação
+          <h1 id="page-title" class="page__title" itemprop="headline">Entenda como funciona as String no ruby
 </h1>
           
 
@@ -327,7 +327,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          2 minute read
+          1 minute read
         
       </span>
     
@@ -339,100 +339,41 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="quais-são-os-problemas-mais-frequentes-quando-resolvemos-estudar-programação">Quais são os problemas mais frequentes quando resolvemos estudar programação?</h2>
+        <h2 id="string-no-ruby">String no Ruby</h2>
 
-<p>Vou relatar alguns problemas que passei durante minha vida de estudante da programação, esse post faz parte de como eu estudei errado.</p>
+<p>Revisando meus conhecimentos básicos em Ruby, inicialmente irei documentar alguns pontos sobre o estudo,a primeira parte que irei falar é sobre string.
+Mas primeiro vou explicar  o que é uma string e pra que serve e como usá-la.</p>
 
-<p>Quando comecei não tinha toda essa estrutura que temos hoje de google, stack overflow, e outros.</p>
+<h2 id="o-que-é-string">O que é string</h2>
 
-<h2 id="a-primeira-dúvida-era-o-que-estudar-como-começa">A primeira dúvida era o que estudar, como começa?</h2>
+<p>Cadeia de caracteres ou string, na programação de computadores cadeia de caracteres ou string, geralmente é utilizada para representar palavras, frases ou texto em um programa.
+Nas linguagens de programação, as cadeias de caracteres podem ser expressas tanto na forma literal, como através de algum tipo de variável. Quando expressos através de variáveis, o conteúdo da cadeia geralmente pode ser alterado pela inclusão/exclusão de elementos ou pela substituição de seus elementos por outros elementos, formando uma nova cadeia. Assim, uma cadeia de caracteres é vista como sendo um tipo de dado e normalmente é implementada através de um arranjo de bytes que armazena os elementos da cadeia em sequência, utilizando alguma codificação preestabelecida.
+Nas linguagens formais, uma cadeia de caracteres é uma sequência finita de símbolos escolhidos a partir de um conjunto denominado alfabeto.
+<a href="https://pt.wikipedia.org/wiki/Cadeia_de_caracteres">Trecho retirado do wikipedia:</a></p>
 
-<h3 id="tutorial-de-html-e-css">Tutorial de html e css</h3>
+<p>Alguns exemplos de saída de uma string no ruby</p>
 
-<p>Procurei na internet alguns tutoriais que ensinava a criar sites, daí fui logo pro fogo sem saber de nada sem entender o que é html e sem entender qual era o impacto do css dentro de um site, então veio as primeiras caneladas como não sabia o que estava fazendo eu ia fazendo de qualquer jeito esperando resultados iguais do tutoriais.</p>
+<p>Antes vou explicar rapidamente duas situações usada no ruby</p>
 
-<p>Dicas:</p>
+<p><strong>Puts</strong> <em>que traduzindo é mostrar, ele é usado para mostrar na tela os resultados das ações.</em></p>
 
-<ol>
-  <li>
-    <p>antes de ir para o fogo, estude o básico, não saia dele antes de entender como o ecossistema funciona, não importa se é uma linguagem simples.</p>
-  </li>
-  <li>
-    <p>Procure alguém para pegar referência, alguém mais experiente vai te dar dicas importantes.</p>
-  </li>
-  <li>
-    <p>Crie uma rotina de estudos com foco e disciplina.</p>
-  </li>
-</ol>
+<p><strong>Get</strong> <em>que traduzindo é recebe tudo aquilo que é digitado na ação.</em></p>
 
-<h3 id="estudar-o-que-está-no-hype">Estudar o que está no Hype?</h3>
+<p>Existe uma tradição dentro da programação que se você for aprender uma linguagem nova e você não fizer o Hello World, você não conseguirá aprender a linguagem, então por tradição.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>puts “Hello world”
 
-<p>Fiquei meio perdido quando comecei, por não ter uma direção, eu estudava tudo que aparecia, então não aprendia nada.</p>
+puts “Olá mundo!”
+</code></pre></div></div>
+<p>Existem dois meios de criar uma string com aspas simples ‘string’ e com aspas duplas “string”, qual é a diferença entre elas?</p>
 
-<p>Dicas:</p>
+<p>Com aspas simples o ruby identifica rapidamente que ali só é uma string, com aspas duplas ele entende que precisa interpretar aquilo independente ou não se ali estiver algo para ser interpretado com o uso de <strong>interpolação</strong>.</p>
 
-<ol>
-  <li>
-    <p>Separe um material, curso ou livro ou post de blog, estude, entenda e depois vá para o próximo.</p>
-  </li>
-  <li>
-    <p>Tenha disciplina ao estudar esse material, separe um horário para aquela rotina de estudos, no começo é difícil mas com foco e disciplina você consegue.</p>
-  </li>
-</ol>
+<p><strong>Interpolação</strong> é uma variável definida em uma determinada string por valores.
+Quando o interpretador ruby passar pela string com aspas duplas ele irá procurar a interpolação para executá-la.</p>
 
-<h3 id="organização">Organização?</h3>
-
-<p>Como relatado acima, estava perdido e não tinha um pingo de organização,</p>
-
-<p>Não sabia o que estudava e nem sabia organizar meus estudos e meus materiais então quando pulava para outro tutorial ou livro ou curso, quase sempre me via estudando o mesmo conteúdo.</p>
-
-<p>Dicas:</p>
-
-<ol>
-  <li>Quando você separar o material, faça um cronograma do que você vai estudar, se for por meio de vídeos, primeiro assista e anote pontos importantes depois execute, não entendeu o processo, reveja o vídeo novamente, na sua cabeça rever o vídeo vai deixar você pra trás, acredite isso vai ajudar você lá na frente.</li>
-</ol>
-
-<ul>
-  <li>Dúvidas?</li>
-</ul>
-
-<p>É natural quando você está estudando ter dúvidas relacionadas ao conteúdo, quando estava com dúvidas simplesmente não tinha com quem tirar, então pulava para a próxima parte do conteúdo, pois achava que tinha uma explicação no próximo capítulo ou vídeo.</p>
-
-<p>Dicas:</p>
-
-<ol>
-  <li>Procure um mentor, alguém que possa tirar suas dúvidas e orientar seu processo de aprendizagem.</li>
-</ol>
-
-<h3 id="faça-perguntas-inteligentes">Faça perguntas inteligentes.</h3>
-
-<p>Confesso que hoje está mais fácil tirar dúvidas, stack overflow, google, comunidades e outros.</p>
-
-<p>Peguei algumas patadas no começo de algumas pessoas, por simplesmente não saber perguntar para ela, ou o problema era simples e não tinha lido direito, e não tinha sequer pesquisado algo antes para ver se conseguia resolver.</p>
-
-<p>Dicas:</p>
-
-<ol>
-  <li>
-    <p>Se você sentir que precisar de uma abordagem “one to one”, faça o seguinte;</p>
-  </li>
-  <li>
-    <p>Pesquise antes no google, o problema que você está passando hoje já foi problema de alguém no passado.</p>
-  </li>
-  <li>
-    <p>Não conseguiu entender ou não conseguiu achar, elabore sua pergunta e deixe ela o mais claro possível e deixe visível para a pessoa a parte que você não entendeu.</p>
-  </li>
-  <li>
-    <p>Na abordagem, lembra que a pessoa que você irá pedir ajuda tem compromisso, então não faça ela perder tempo.</p>
-  </li>
-  <li>
-    <p>Seja direto e claro.</p>
-  </li>
-</ol>
-
-<p>Esse post foi para dar dicas para melhorar seu desempenho nos estudos da programação.</p>
-
-<p>Espero ter ajudado com esse conteúdo.</p>
+<p>Exemplo:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>puts “ Isso é uma interpolação #{exemplo} usada dentro de uma string com aspas duplas”
+</code></pre></div></div>
 
         
       </section>
@@ -451,15 +392,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#desenvolvendome" class="page__taxonomy-item" rel="tag">DesenvolvendoMe</a><span class="sep">, </span>
-    
-      <a href="/categories/#dicas" class="page__taxonomy-item" rel="tag">Dicas</a><span class="sep">, </span>
-    
-      <a href="/categories/#hardskill" class="page__taxonomy-item" rel="tag">HardSkill</a><span class="sep">, </span>
-    
-      <a href="/categories/#programa%C3%A7%C3%A3o" class="page__taxonomy-item" rel="tag">Programação</a><span class="sep">, </span>
-    
-      <a href="/categories/#softskill" class="page__taxonomy-item" rel="tag">SoftSkill</a>
+      <a href="/categories/#ruby" class="page__taxonomy-item" rel="tag">Ruby</a>
     
     </span>
   </p>
@@ -467,7 +400,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-05-20T00:00:00-03:00">May 20, 2022</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-07-05T00:00:00-03:00">July 5, 2022</time></p>
 
 
       </footer>
@@ -475,23 +408,22 @@
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?via=mmistakes&text=Problemas+encontrado+para+estudar+programa%C3%A7%C3%A3o%20%2Fprograma%25C3%25A7%25C3%25A3o%2Fsoftskill%2Fhardskill%2Fdesenvolvendome%2Fdicas%2Fproblemas-encontrados-para-estudar-programacao%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=mmistakes&text=Entenda+como+funciona+as+String+no+ruby%20%2Fruby%2Fstring-ruby%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fprograma%25C3%25A7%25C3%25A3o%2Fsoftskill%2Fhardskill%2Fdesenvolvendome%2Fdicas%2Fproblemas-encontrados-para-estudar-programacao%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fruby%2Fstring-ruby%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fprograma%25C3%25A7%25C3%25A3o%2Fsoftskill%2Fhardskill%2Fdesenvolvendome%2Fdicas%2Fproblemas-encontrados-para-estudar-programacao%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fruby%2Fstring-ruby%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/descobrindo-o-caminho-das-pedas/" class="pagination--pager" title="Descobrindo o caminho das pedras
+      <a href="/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/dicas/problemas-encontrados-para-estudar-programacao/" class="pagination--pager" title="Problemas encontrado para estudar programação
 ">Previous</a>
     
     
-      <a href="/ruby/string-ruby/" class="pagination--pager" title="Entenda como funciona as String no ruby
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -515,7 +447,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/ruby/string-ruby/" rel="permalink">Entenda como funciona as String no ruby
+        <a href="/programa%C3%A7%C3%A3o/softskill/hardskill/desenvolvendome/dicas/problemas-encontrados-para-estudar-programacao/" rel="permalink">Problemas encontrado para estudar programação
 </a>
       
     </h2>
@@ -533,14 +465,14 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          2 minute read
         
       </span>
     
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">String no Ruby
+    <p class="archive__item-excerpt" itemprop="description">Quais são os problemas mais frequentes quando resolvemos estudar programação?
 </p>
   </article>
 </div>
